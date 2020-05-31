@@ -1,0 +1,33 @@
+  189  ls
+  190  git rm task
+  191  rm task
+  192  ls
+  193  ls -a
+  194  touch processes.txt
+  195  ls
+  196  ps aux
+  197  ps aux > processes.txt
+  198  cat processes.txt 
+  199  cp processes.txt copy.txt
+  200  ls
+  201  mkdir kopia
+  202  mv copy.txt kopia/
+  203  ls
+  204  wc -l processes.txt 
+  205  wc -l processes.txt >> processes.txt 
+  206  grep -rn /bin processes.txt 
+  207  grep -rn /bin processes.txt >> processes.txt 
+  208  grep -rn /bin processes.txt > temporary.txt
+  209  ls
+  210  cat processes.txt 
+  211  cat temporary.txt 
+  212  touch proba.txt
+  213  ps aux > proba.txt
+  214  cat proba.txt
+  215  proba.txt >> temporary.txt 
+  216  vim proba.txt
+  217  vim temporary.txt 
+  218  ls
+  219  vim processes.txt 
+  220  history
+  221  history | tail -n -33 > commands.txt
